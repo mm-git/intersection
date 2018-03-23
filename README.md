@@ -1,6 +1,13 @@
 # intersection
 
-> A Vue.js project
+交差点の位置と名前を返すAPIです。
+
+## はじめに
+
+- 少し前(2016年ぐらい?)のと地図を元に交差点のリストを作成しています。
+- 現在はもう存在しない、名前が変わっている交差点が含まれている場合があります。
+- また、あるはずの交差点がリストにない場合もあります。
+- 特に、震災、災害等で大幅に変わっている可能性があります。
 
 ## Build Setup
 
@@ -17,5 +24,3 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
